@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../pic/back2.jpg);
+}
+
+.container {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-weight: bold;
+  font-family: fantasy;
+  position: relative;
+}
+
+span {
+  animation-name: icon;
+  animation-duration:  .8s;
+  animation-iteration-count: infinite;
+  transition: all ease;
+  position: absolute;
+}
+
+@keyframes icon {
+  from {bottom: 0;}
+  to {bottom: 10px;}
+}
+
+button {
+  margin: 20px;
+  height: 45px;
+  width: 70px;
+  border-radius: 25px;
+  border: 1px red solid;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+
+button:hover {
+  background-color: rgb(222, 10, 28);
+  transform: scale(1.2);
+  color: white;
+}
+
+.rest {
+  display: none;
+  border-radius: 10px;
+  background-color: rgb(20, 77, 220);
+  border: 1px rgb(0, 179, 255) solid;
+  margin: auto;
+
+}
+
+.rest:hover {
+  background-color: rgb(0, 255, 30);
+}
+
+img{
+  border-radius: 50%;
+}
